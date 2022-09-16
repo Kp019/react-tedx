@@ -1,0 +1,158 @@
+.pic1{
+    background-image: url("../images/xstaff-1.jpg.pagespeed.ic.-cauDx8oxf.jpg");
+}
+.pic2{
+    background-image: url("../images/xstaff-2.jpg.pagespeed.ic.aH2DkK40Qg.jpg");
+}
+.pic3{
+    background-image: url("../images/xstaff-3.jpg.pagespeed.ic.oUqkobnGeE.jpg");
+}
+.pic4{
+    background-image: url("../images/xstaff-4.jpg.pagespeed.ic.RjllkC0xzz.jpg");
+}
+.pic5{
+    background-image: url("../images/xgallery-2.jpg.pagespeed.ic.JcQcZ2pUne.jpg");
+}
+.pic6{
+    background-image: url("../images/xgallery-1.jpg.pagespeed.ic.CTQnjRKBWM.jpg");
+}
+.pic7{
+    background-image: url("../images/xgallery-3.jpg.pagespeed.ic.JPPWKtq9eU.jpg");
+}
+.pic8{
+    background-image: url("../images/xgallery-4.jpg.pagespeed.ic.yccX7yuujl.jpg");
+}
+
+
+.ftcospeakers {
+	background: #0d0cb5
+}
+
+.staff {
+	width: 100%;
+	margin-bottom: 40px;
+	z-index: 0;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease
+}
+
+.staff .imgwrap {
+	position: relative;
+	z-index: -1
+}
+
+.staff .img {
+	width: 100%;
+	height: 250px;
+	max-width: 200px;
+	display: block;
+	background-position: top center;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+	position: relative
+}
+
+.staff .img:after {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	content: '';
+	background: #033fff;
+	opacity: .2
+}
+
+.staff .text {
+	width: 100%;
+	opacity: 1;
+	color: rgba(0, 0, 0, .6);
+	z-index: 1;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+	margin-top: -60px
+}
+
+.staff .text>div{
+	width: 100%;
+	padding: 0 1em;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease
+}
+
+.staff .text h3 {
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 0;
+	line-height: 1.1;
+	color: #fff;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+	text-transform: uppercase
+}
+
+.staff .text .position {
+	text-transform: uppercase;
+	color: #fbb901;
+	display: block;
+	letter-spacing: 1px
+}
+
+.staff .ftcosocial {
+	opacity: 1;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease
+}
+
+.staff .ftcosocial li a {
+	color: #fff
+}
+
+.ftcosocial {
+	padding: 0
+}
+
+.ftcosocial li {
+	list-style: none;
+	margin-right: 10px;
+	display: inline-block
+}
+
+.ftco-animate {
+	opacity: 0;
+	visibility: hidden
+}
+
+.ftcosection {
+	padding: 7em 0;
+	position: relative
+}
+
+@media (max-width:767.98px) {
+	.ftcosection {
+		padding: 6em 0
+	}
+}
+
+
+.ftcospeakers {
+	background: #0d0cb5
+}
