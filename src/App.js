@@ -5,6 +5,8 @@ import About from "./components/About/about";
 import Speaker from "./components/Speakers/speaker";
 import Proevents from "./components/proevents/proevents";
 import Schedule from "./components/schedule/Schedule";
+import Newspeaker from "./components/new-speaker/Newspeaker";
+import Pricing from "./components/pricing/Pricing";
 function App() {
   return (
     
@@ -16,6 +18,8 @@ function App() {
       <Speaker/>
       <Proevents/>
       <Schedule/>
+      <Newspeaker/>
+      <Pricing/>
     </div>
   );
 }
