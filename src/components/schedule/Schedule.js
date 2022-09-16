@@ -181,7 +181,10 @@ function Schedule() {
       </div>
     </div>
   </section>*/
-    <div>Schedule for the event</div>
+    <div>
+      Schedule for the event
+      <p>just for fun</p>
+    </div>
   );
 }
 
