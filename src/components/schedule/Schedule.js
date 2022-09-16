@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Schedule() {
   return (
@@ -181,17 +181,8 @@ function Schedule() {
       </div>
     </div>
   </section>*/
-    <div>Schedule</div>
-    
-
-
-
-
-
-
-
-
-  )
+    <div>Schedule for the event</div>
+  );
 }
 
-export default Schedule
+export default Schedule;
